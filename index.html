@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KARTIK SRIVASTAVA</title>
+    <link rel="stylesheet" href="css\style.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Space+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+	<script src="index.js"></script>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Kartik.</h1>
+    <h2>A programmer.</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="mountain-img">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images/profile.jpg" alt="Profile-Pic" style="border-radius:100%; margin-top:100px" height="250px" >
+      <h2>Hello.</h2>
+      <p class="intro">I am a student programmer currently enrolled in a prestigious college, also known as one of the worst colleges of Delhi.</p>
+    </div>
+    <hr class="dott">
+    <div class="skills">
+      <h2>SKILLS</h2>
+      <div class="skill-row">
+        <img class="gamepic" src="https://cdn-icons-png.flaticon.com/512/2463/2463510.png" alt="unity-pic" height="350px">
+        <h3>Game Development</h3>
+        <p class="game-desc">Being a super engrossed gamer, I started working my way around making games using c++ and OpenGL library.</p>
+      </div>
+      <div class="skill-row">
+        <img class="estatepic" src="https://media4.giphy.com/media/vtIdpMFIwhXSOXVjgg/giphy.gif?cid=790b7611081cd355599e4d911acd3831709207a217fbb9f8&rid=giphy.gif&ct=s" alt="estate-pic" height="350px">
+        <h3>Real Estate Investor</h3>
+        <p class="estate-desc">Desiring to be finanically Independent, a regular investor in real estate to expand my assets.</p>
+      </div>
+    </div>
+    <hr class="dott">
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you love gaming while coding, be sure to hit me up!</h3>
+      <p style="margin-bottom: 50px;">Click the button below to start gaming+coding !</p>
+      <a class="btn" href="mailto:kartiksri1911@email.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/kartik-srivastava-748220202/" style="text-decoration:none; margin-right:100px;">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/kartiksri19" style="text-decoration:none; margin-right:100px;">Twitter</a>
+    <a class="footer-link" href="https://www.instagram.com/kartikxsriv" style="text-decoration:none;">Instagram</a>
+    <p style="margin-bottom:0px; color:#EAF6F6;">© 2023 Kartik Srivastava@The GigaChad</p>
+  </div>
+  <p id="GFG_UP" style="font-size: 16px;
+                          font-weight: bold;">
+    </p>
+
+    <button onclick="gfg_Run()">
+        Click here
+    </button>
+
+    <p id="GFG_DOWN" style="color:green;
+                            font-size: 20px;
+                            font-weight: bold;">
+    </p>
+  <script>
+        var el_up = document.getElementById("GFG_UP");
+        var el_down = document.getElementById("GFG_DOWN");
+        var str = "Click on button to change the background color";
+
+        el_up.innerHTML = str;
+
+        function changeColor(color) {
+            document.body.style.background = color;
+        }
+
+        function gfg_Run() {
+            changeColor('black');
+            el_down.innerHTML = "Background Color changed";
+        }
+</script>
+  </body>
+</html>
